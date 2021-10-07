@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double antenna;
+    double c;
+    double f;
+    double lamda;
+    c=3*pow(10,8);
+  cout <<"please enter the frequency in hertz             "  ;
+  cin >> f ;
+   lamda = c/f ;
+    antenna = lamda/4;
+  cout << " antenna length =         " << antenna*100<<" cm" ;
+}
